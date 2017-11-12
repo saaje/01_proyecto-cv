@@ -1,0 +1,187 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600|Source+Sans+Pro');
+/*
+    **Titulo
+      font-family: 'Raleway', sans-serif;
+   
+    **Parrafo
+      font-family: 'Source Sans Pro', sans-serif;
+*/
+
+body {
+   width: 80%;
+   margin: 5rem auto 0 auto;
+   text-align: center;
+   background-color: #FC4349;
+   font-size: 16px;
+}
+
+/********** 
+   Estilos
+generales
+__
+
+by Felipe San Martínn G.
+**********/
+
+
+h1 {
+   color: #fc4349;
+   text-shadow: 1px 1px 0px #7e8ea0;
+}
+h2 {
+   font-size: 1.4rem;
+   color: #fc4349;
+}
+
+h3 {
+   font-size: 1.1rem;
+   color: #67bdd8;
+}
+
+h4 {
+   color: #67bdd8;
+}
+
+h1, h2, h3, h4 {
+   font-family: 'Raleway', sans-serif;
+   margin: 0 0 .5rem 0;
+}
+
+p, strong, li {
+   font-family: 'Source Sans Pro', sans-serif;
+   color: #7f8ea2;
+   line-height: 1.5rem;
+}
+
+strong {
+   font-weight: 800;
+}
+
+/********** 
+   header
+**********/
+
+#header {
+   width: 20%;
+   float: left;
+   padding: 0;
+   position: fixed;
+}
+
+   #header img {
+      margin-left: -1.5rem;
+      width: 230px;
+      border-radius: .5rem;   
+   }
+
+   #header .navegation img {
+      width: 1.2rem;
+      margin: .7rem .5rem 0 0;
+   }
+
+   #header nav ol {
+      /*width: 100%;*/
+      list-style: none;
+      text-decoration: none;
+   }
+
+.navegation {   
+   width: 104%;
+   }
+
+   .navegation ol a {
+      text-decoration: none;      
+   }
+
+      .navegation ol a li {         
+         width: 100%;
+         box-sizing: border-box;         
+         padding: .9rem 1rem;
+         margin: .7rem 0 0 -2.5rem;
+         background-color: #fff;
+         border-radius: .5rem;
+         text-align: left;
+         line-height: 2rem;
+         color: #2c3e4f;
+         transition: 1s;
+         font-family: sans-serif;
+         box-shadow: 10px 10px 0px #dd2631;         
+      }
+
+         .navegation ol a li:hover {
+            background-color: #e22235;
+            color: #fff;
+            font-weight: bold;
+            transition: .5s;
+            box-shadow: none;
+            }
+
+
+
+/********** 
+   wrapper
+**********/
+
+.wrapper {
+   width: 70%;
+   float: right;
+   text-align: left;
+   box-sizing: border-box;
+   background-color: #fff;
+   padding: 2rem 4rem;
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+   border-radius: .5rem;
+   box-shadow: 10px 10px 0px #dd2631;
+   background-image: url(../img/franja-color.jpg);
+   background-repeat: no-repeat;
+   background-position: bottom center;   
+   background-size: 100% 10px;
+}
+
+#presentacion h1 {
+   font-size: 3rem;
+   margin: 0;
+}
+
+#presentacion ul {
+   list-style: none;
+}
+
+   #presentacion ul li {
+      border-bottom: 1px solid #ccc;
+      padding: .5rem 0;
+   }
+
+
+      #presentacion ul strong {
+         color: #447d93;
+      }
+
+
+.wrapper .wrapper-list {
+   margin-bottom: 1rem;
+   border-bottom: 1px solid #ccc;
+   padding: 1rem 0;
+   }
+
+   .wrapper .wrapper-list img {
+      width: 1rem;
+      margin: 0 .5rem 0 0;
+      }
+
+   .wrapper .wrapper-list:last-child {
+      border:none;
+      }
+
+   .wrapper-list .prominent {
+      color: #2c3e4f;
+      font-weight: bolder;
+      }
+
+   .wrapper .icon-wrapper-list {
+      width: 1.5rem;
+      margin-right: .9rem;
+   }
+

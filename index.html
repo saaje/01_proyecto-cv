@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Cv · Felipe San Martín G.</title>
+   <!-- estilos proyecto-->
+   <link rel="stylesheet" href="css/style.css">
+   
+   <!-- estilos slider-->
+   <link rel="stylesheet" href="css/unslider.css">
+   
+   <!--<link rel="stylesheet" href="css/extra.css">-->
+</head>
+
+<body>
+  
+   <!--Menu-->
+   <header id="header">     
+      <img src="img/pipe.jpg" alt="">
+      <nav class="navegation">
+         <ol>
+            <a href="#presentacion"><li><img src="img/presentacion-icon.svg" alt="presentacion"> Presentación</li></a>
+            <a href="#formacion"><li><img src="img/estudios-icon.svg" alt="formacion"> Formación</li></a>
+            <a href="#experiencia"><li><img src="img/experiencia-icon.svg" alt="experiencia"> Experiencia</li></a>
+            <a href="#portfolio"><li><img src="img/portfolio-icon.svg" alt="portfolio"> Portfolio</li></a>
+         </ol>
+      </nav>
+   </header>
+   <!--/Menu-->
+   
+   <!--Presentacion-->
+   <section id="presentacion" class="wrapper">
+      <p>Quien soy</p>
+      <h1><img class="icon-wrapper-list" src="img/presentacion-icon.svg" alt="imagen Felipe San Martín G">Felipe San Martín G.</h1>
+      <p>Diseñador gráfico · Desarrollador Web Full Stack</p>
+
+      <ul>
+         <li><strong>Nombre:</strong> Felipe San Martín G.</li>
+         <li><strong>Edad:</strong> 30 años</li>
+         <li><strong>Mail</strong> hola@qiu.cl</li>
+         <li><strong>Dirección:</strong> Chillán, Chile</li>
+         <li><strong>Teléfono:</strong> +56(9)53812217</li>
+         
+         <p>Diseñador gráfico de profesión, con un fuerte enfoque en el area digital.</p>
+      </ul>
+   </section>
+   <!--/Presentacion-->
+   
+   <!--Formacion-->
+   <section id="formacion" class="wrapper">
+      <h2><img class="icon-wrapper-list" src="img/estudios-icon.svg" alt="">Formación</h2>
+      
+      <div class="wrapper-list">
+         <h3><img src="img/estudios-list-icon.svg" alt="imagen estudio"> Desarrollador web Full Stack<br><strong class="prominent">Acamica</strong></h3>      
+         <p>Preparación profesional web, entregando habilidades necesarias para crear aplicaciones web. Las tecnologias enseñadas son: HTML5, CSS, JavaScript, Git, jQuery, Canvas, Protocolo HTTP, APIs REST, Node.js, Express, MySQL y Docker</p>
+      </div>
+      
+      <div class="wrapper-list">
+         <h3><img src="img/estudios-list-icon.svg" alt="imagen estudio"> Diplomado web manager &amp; Desing pro <br><strong class="prominent">Academia Mac · Crossmedia Training Center</strong></h3>
+         <p>Desde el año 2000 la Internet impacta en la forma como nos comunicamos, vendemos y diseñamos creativamente. Por ello se hace necesario la producción de sitios Web más potentes como herramientas de venta y comunicación, cada vez más funcionales para el usuario. Esto nos lleva a plantearnos la web como una pieza clave en el mix de marketing y no sólo como un elemento adicional. Tecnologias enseñadas: html5, css3, jQuery, ajax, PHP y WordPress</p>
+      </div>
+      
+      <div class="wrapper-list">
+         <h3><img src="img/estudios-list-icon.svg" alt="imagen estudio"> Diseñador Gráfico <br><strong class="prominent">Insituto Virginio Gómez · Universidad de Concepción</strong></h3>
+         <p>Capacitado para generar proyectos creativos e innovadores en las diversas áreas de la comunicación visual con competencias en el diagnóstico de necesidades de comunicación y en el manejo de herramientas digitales. Esto le permite desenvolverse en la gestión y producción de diseño gráfico digital, editorial, tridimensional y diseño de imagen. Será un profesional consciente de la necesidad de actualización permanente, asumiendo riesgos en escenarios futuros, trabajando de manera asociativa con otras disciplinas, valorando la función del diseño en lo social y económico.</p>
+      </div>
+   </section>
+   <!--/Formacion-->
+   
+   <!--Experiencia-->
+   <section id="experiencia" class="wrapper">
+      <h2><img class="icon-wrapper-list" src="img/experiencia-icon.svg" alt="imagen experiencia">Experiencia</h2>
+      
+      <div class="wrapper-list">
+         <h3>Qiu <strong class="prominent">· Director creativo</strong></h3>      
+         <p>Relaciones publicas, gestiones, desarrollo de plataformas digitales, imagen corporativa.</p>
+      </div>
+      
+      <div class="wrapper-list">
+         <h3>Colegio Antofagasta <strong class="prominent">· Encargado Departamento de Comunicación</strong></h3>      
+         <p>Estrategia comunicacional, publicidad y marketing.</p>
+      </div>
+      
+      <div class="wrapper-list">
+         <h3>Expresión Gráfica <strong class="prominent">· Supervisor y diseñador gráfico</strong></h3>      
+         <p>Diseño, impresión, producción, supervisión y mantención de maquinarias.</p>
+      </div>
+      
+      <div class="wrapper-list">
+         <h3>Instituto Profesional Virginio Gómez <strong class="prominent">· Practica Profesional</strong></h3>      
+         <p>Imagen corporativa de la carrera de Administración de Empresa, afiches, gráfica de admisión, pendones, fotomontajes y papelería.</p>
+      </div>
+      
+   </section>
+   <!--/Experiencia-->
+   
+   <!--Portfolio-->
+   <section id="portfolio" class="wrapper">
+      <h2><img class="icon-wrapper-list" src="img/portfolio-icon.svg" alt="imagen portfolio">Portofolio <strong class="prominent">{ ya viene... }</strong></h2>
+      
+      <div class="slider">
+         <ul>
+            <li>Proyecto 1</li>
+            <li>Proyecto 2</li>
+            <li>Proyecto 3</li>            
+         </ul>
+      </div>
+   </section>
+   <!--/Portfolio-->  
+   
+      
+   
+   <!--script banner-->
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="js/unslider.js"></script>
+   <script>
+      jQuery(document).ready(function($) {
+         $('.slider').unslider({
+            arrows: false,
+            speed: 400,
+            autoplay: true            
+         });
+      });
+   </script>
+   
+</body>
+</html>
